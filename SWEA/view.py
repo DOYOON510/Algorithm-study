@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open("input.txt", "r")
+# import sys
+# sys.stdin = open("input.txt", "r")
 for test_case in range(1, 11):
     n=int(input())
     house=list(map(int,input().split()))
